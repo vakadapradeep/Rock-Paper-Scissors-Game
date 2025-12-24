@@ -52,7 +52,7 @@ Developed using **HTML, CSS, and JavaScript**, this game ensures a fun and engag
 
 ## 🖼️ Output of the Project
 
-- 📌 **Game Start Page**  
+- 📌 **Game Starting Page**  
   ![Game Start](OutPut/GameInitialState.png)
 
 - 📌 **Playing the Game**  
