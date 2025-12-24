@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock and Scissor</title>
+
+    <!-- ===================== CSS SECTION ===================== -->
+    <link rel="stylesheet" href="styles/09-completeProject.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Rock And Scissor Game</h1>
+
+    <!-- ===================== PLAYER BUTTONS ===================== -->
+    <button onclick="playerMove('rock')" class="move-button">
+      <img src="images/rock-emoji.png" class="move-rock" />
+    </button>
+
+    <button onclick="playerMove('paper')" class="move-button">
+      <img src="images/paper-emoji.png" class="move-paper" />
+    </button>
+
+    <button onclick="playerMove('scissors')" class="move-button">
+      <img src="images/scissors-emoji.png" class="move-scissor" />
+    </button>
+
+    <!-- ==================== OUTPUT SECTIONS ===================== -->
+    <p class="js-result"></p>
+    <p class="js-score distance"></p>
+    <p class="js-moves"></p>
+
+    <!-- ===================== RESET BUTTON ===================== -->
+    <button
+      class="reset-score-button"
+      onclick="
+        score.wins = 0;
+        score.losses = 0;
+        score.Tie = 0;
+        localStorage.removeItem('score');
+        updateScoreElement();
+        alert('Your score is reset, play Again');
+      "
+    >
+      Reset Score
+    </button>
+
+    <!-- ===================== JAVASCRIPT LOGIC ===================== -->
+    <script src="scripts/09-completeProject.js"></script>
+  </body>
+</html>
