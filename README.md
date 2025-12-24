@@ -53,19 +53,19 @@ Developed using **HTML, CSS, and JavaScript**, this game ensures a fun and engag
 ## 🖼️ Output of the Project
 
 - 📌 **Game Start Page**  
-  ![Game Start](Output/GameIntialState.png)
+  ![Game Start](./Output/GameInitialState.png)
 
 - 📌 **Playing the Game**  
-  ![Playing Game](Output/Playing.png)
+  ![Playing Game](./Output/Playing.png)
 
 - 📌 **Playing**  
-  ![Second Move](Output/Move2.png)
+  ![Second Move](./Output/Move2.png)
 
 - 📌 **Playing**  
-  ![Third Move](Output/Move3.png)
+  ![Third Move](./Output/Move3.png)
 
 - 📌 **Reset Score**  
-  ![Reset Score](Output/Reset.png)
+  ![Reset Score](./Output/Reset.png)
 
 ---
 
